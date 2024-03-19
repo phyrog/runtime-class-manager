@@ -102,18 +102,18 @@ jobs:
             let path = require('path');
 
             let files = [
-              '${{ github.repository_owner }}/runtime-class-manager-sbom-amd64.spdx',
-              '${{ github.repository_owner }}/runtime-class-manager-sbom-amd64.spdx.cert',
-              '${{ github.repository_owner }}/runtime-class-manager-sbom-amd64.spdx.sig',
-              '${{ github.repository_owner }}/runtime-class-manager-sbom-arm64.spdx',
-              '${{ github.repository_owner }}/runtime-class-manager-sbom-arm64.spdx.cert',
-              '${{ github.repository_owner }}/runtime-class-manager-sbom-arm64.spdx.sig',
-              '${{ github.repository_owner }}/node-installer-sbom-amd64.spdx',
-              '${{ github.repository_owner }}/node-installer-sbom-amd64.spdx.cert',
-              '${{ github.repository_owner }}/node-installer-sbom-amd64.spdx.sig',
-              '${{ github.repository_owner }}/node-installer-sbom-arm64.spdx',
-              '${{ github.repository_owner }}/node-installer-sbom-arm64.spdx.cert',
-              '${{ github.repository_owner }}/node-installer-sbom-arm64.spdx.sig',
+              'runtime-class-manager-sbom-amd64.spdx',
+              'runtime-class-manager-sbom-amd64.spdx.cert',
+              'runtime-class-manager-sbom-amd64.spdx.sig',
+              'runtime-class-manager-sbom-arm64.spdx',
+              'runtime-class-manager-sbom-arm64.spdx.cert',
+              'runtime-class-manager-sbom-arm64.spdx.sig',
+              'node-installer-sbom-amd64.spdx',
+              'node-installer-sbom-amd64.spdx.cert',
+              'node-installer-sbom-amd64.spdx.sig',
+              'node-installer-sbom-arm64.spdx',
+              'node-installer-sbom-arm64.spdx.cert',
+              'node-installer-sbom-arm64.spdx.sig',
             ]
             const {RELEASE_ID} = process.env
 
