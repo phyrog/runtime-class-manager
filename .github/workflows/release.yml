@@ -10,7 +10,10 @@ permissions: read-all
 jobs:
   ci:
     uses: ./.github/workflows/ci.yml
-    permissions: read-all
+    permissions:
+      content: read
+      pull-requests: read
+      checks: write
 
   build-manager:
     name: Build manager image, sign it, and generate SBOMs
