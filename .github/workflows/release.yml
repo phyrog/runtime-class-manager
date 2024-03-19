@@ -31,7 +31,8 @@ jobs:
 
     needs:
       - ci
-      - build
+      - build-manager
+      - build-installer
 
     permissions:
       contents: write
